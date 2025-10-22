@@ -23,7 +23,7 @@ public class App
 
         Metadata metadata = new Metadata();
         metadata.set(Metadata.CONTENT_LANGUAGE, "es"); 
-        File file = new File("C://Users//jlbug//Downloads//ReciboPE (11).pdf");
+        File file = new File("C://Users//jlbug//Downloads//20378890161-01-F451-10945.pdf");
         InputStream inputStream = new FileInputStream(file);
         String contenido = tika.parseToString(inputStream,metadata);
 
