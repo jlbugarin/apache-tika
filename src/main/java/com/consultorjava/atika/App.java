@@ -18,13 +18,7 @@ public class App
 {
     public static void main( String[] args ) throws Exception
     {
-       /*  System.out.println( "#telodijoelbuga");
-        Tika tika = new Tika();
-        File file = new File("C://Users//jlbug//Downloads//7190386-propuesta_-estrategia-nacional-de-inteligencia-artificial.pdf");
-        String texto = tika.parseToString(file);
-        System.out.println("Contenido extraído:");
-        System.out.println(texto);*/
-
+       
         Tika tika = new Tika();
 
         Metadata metadata = new Metadata();
